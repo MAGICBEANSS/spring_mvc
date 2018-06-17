@@ -5,9 +5,22 @@ import java.util.HashSet;
 
 public class Student {
 
+	
 	String fname;
 	String lname;
 	int rollno;
+	Address studentaddress;
+public Student() {
+	System.out.println("dsfsdf");
+		
+	}
+	
+	public Address getStudentaddress() {
+		return studentaddress;
+	}
+	public void setStudentaddress(Address studentaddress) {
+		this.studentaddress = studentaddress;
+	}
 	ArrayList <String> hobbylist;
 	HashSet <String> hsa;
 	public HashSet<String> getHsa() {

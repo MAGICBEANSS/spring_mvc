@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>${welcomemessage}</h1>
-<form action="./submission" method="get">
+<form action="./submiss" method="get">
 <label for="fname" >FirstName</label>
 <input id="fname" value="firstname" name="fname" />
 <br />
@@ -29,7 +29,19 @@
 	ORACLE
 </option>
 </select>
-
+<br />
+Colony: 
+<input type="text" name="studentaddress.colony">
+<br />
+Street : 
+<input type="text" name="studentaddress.street">
+<br />
+City : 
+<input type="text" name="studentaddress.city">
+<br />
+ZipCode :
+<input type="text" name="studentaddress.zipcode">
+<br />
 
 
 <button type="submit">Submit</button>

@@ -14,5 +14,9 @@
 <br/>
 <pre>Your hobbies are <i> ${s1s.hsa}</i></pre>
 Congrats,You are registered
+<br />
+<pre> ${s1s.studentaddress.colony} ,  ${s1s.studentaddress.street}  ,  ${s1s.studentaddress.city}</pre>
+<pre>  ${s1s.studentaddress.zipcode} </pre>
+
 </body>
 </html>
